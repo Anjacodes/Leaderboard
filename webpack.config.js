@@ -13,7 +13,7 @@ module.exports = {
       title: 'Leaderboard',
       inject: 'body',
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
     }),
   ],
   output: {
