@@ -16,23 +16,18 @@
       <div>
         <div class="flexContainer headCont btmMargin">
           <h2 class="headFontStyle rightMargin">Recent scores</h2>
-          <button class="btn" type="button">Refresh</button>
+          <button class="btn btnRefresh" type="button">Refresh</button>
         </div>
         <table class="table">
-            <tr>
-              <td>HEYHOHO</td>
-            </tr>
-            <tr>
-              <td>Hahaha</td>
-            </tr>
         </table>
       </div>
       <div>
         <h2 class="headFontStyle btmMargin">Add your score</h2>
         <form class="flexContainerCol">
-            <input type="text" placeholder="Your name" class="formInput">
-            <input type="number" placeholder="Your score" class="formInput">
+            <input id="name" type="text" placeholder="Your name" class="formInput" required>
+            <input id="score" type="number" placeholder="Your score" class="formInput" required>
             <input type="button" value="Submit" class="btn btnForm">
+            <span class="alert"></span>
         </form>
       </div>
     </section>
