@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Maitree', serif;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .flexContainerCol {
@@ -68,4 +68,19 @@ tr:nth-child(even) {
 
 .btnForm {
   align-self: flex-end;
+}
+
+.alert {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  align-self: flex-start;
+  flex-wrap: wrap;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(71, 148, 103);
 }
