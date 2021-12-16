@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Maitree&display=swap');
-    </style>
-    <title>Document</title>
+        @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Serif+Display&family=Maitree&display=swap');
+        </style>
+    <title>Leaderboard</title>
 </head>
 <body>
+    <nav>
+        <a href="#"><img src='#' class='logo' alt="Logo"></a>
+        <ul>
+          <li class="scores rightMargin">scores</li>
+          <li class="contact rightMargin">contact</li>
+        </ul>
+    </nav>
   <main class="flexContainerCol">
-    <h1 class="headFontStyle">Leaderboard</h1>
+    <h1 class="headFontStyle mainTitle ">LEADERBOARD</h1>
     <section class="flexContainer mainContainer">
-      <div>
+      <div class="scoreCont">
         <div class="flexContainer headCont btmMargin">
-          <h2 class="headFontStyle rightMargin">Recent scores</h2>
+          <h2 class=" secTitle headFontStyle rightMargin">Recent scores</h2>
           <button class="btn btnRefresh" type="button">Refresh</button>
         </div>
         <table class="table">
         </table>
       </div>
-      <div>
-        <h2 class="headFontStyle btmMargin">Add your score</h2>
+      <div class="scoreCont">
+        <h2 class=" secTitle headFontStyle btmMargin">Add your score</h2>
         <form class="flexContainerCol">
             <input id="name" type="text" placeholder="Your name" class="formInput" required>
             <input id="score" type="number" placeholder="Your score" class="formInput" required>
@@ -30,6 +37,19 @@
             <span class="alert"></span>
         </form>
       </div>
+      <div class="contactCont">
+          <h2 class="secTitle">Contact us!</h2>
+          <p class="text">We're always happy to hear from you.<br>Email: mail@mail.com</p>
+      </div>
     </section>
   </main>
+  <footer>
+    <a href="#"><img src='#' class='logo' alt="Logo"></a>
+    <div class="socialCont">
+    <span>Follow us</span>
+    <a href="#"><img class="socialIcon" src="#" alt="social icon"></a>
+    <a href="#"><img class="socialIcon" src="#" alt="social icon"></a>
+    <a href="#"><img class="socialIcon" src="#" alt="social icon"></a>
+    </div>
+  </footer>
 </body>
