@@ -47,7 +47,7 @@ btnRefresh.addEventListener('click', () => {
         const newTd = document.createElement('td');
         newRow.appendChild(newTd);
         table.appendChild(newRow);
-        newTd.innerHTML = `${score.user}: ${score.score}`;
+        newTd.textContent = `${score.user}: ${score.score}`;
       });
     }
   })();
